@@ -1,0 +1,21 @@
+.SearchInput {
+  position: relative;
+}
+
+.SearchInput input {
+  height: 32px;
+  width: 220px;
+  color: var(--white);
+  background-color: var(--dark-mode-grey-lite);
+  padding-left: 40px;
+  border: 0;
+  border-radius: 3px;
+}
+
+.SearchInput img {
+  position: absolute;
+  padding: 4px;
+  width: 24px;
+  left: 0;
+  top: 0;
+}

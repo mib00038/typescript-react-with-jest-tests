@@ -1,0 +1,64 @@
+.PositionGrid {
+  padding: var(--table-gutter-size);
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.header {
+  color: var(--white);
+  font-size: 10px;
+  font-weight: normal;
+  opacity: 0.6;
+  text-align: left;
+  height: var(--row-height);
+}
+
+.white {
+  color: var(--white);
+}
+
+.row {
+  font-size: var(--table-gutter-size);
+  height: var(--row-height);
+  width: 100%;
+}
+
+.ticker {
+  width: 35px;
+  padding-left: var(--ticker-padding-size);
+  padding-right: var(--table-gutter-size);
+}
+
+.name {
+  color: var(--makara-yellow);
+  padding-right: var(--table-gutter-size);
+}
+
+.exposure {
+  width: 60px;
+  padding-right: var(--table-gutter-size);
+  text-align: right;
+}
+
+.positive {
+  color: var(--cyan);
+}
+
+.negative {
+  color: var(--mustard);
+}
+
+/* Table row divider styling */
+table tr td {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.8);
+  padding: 0;
+}
+
+table tr:first-child td {
+  border-top: none;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}

@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--black);
+}
+
+main {
+  width: 520px;
+}
+
+/* css variables */
+:root {
+  --black: black;
+  --dark-mode-grey: #1D1D1D;
+  --dark-mode-grey-lite: #212121;
+  --white: #ffffff;
+  --makara-yellow: #ffeacc;
+  --cyan: #06deff;
+  --mustard: #f2b032;
+
+  --row-height: 28px;
+  --table-gutter-size: 12px;
+  --widget-padding-size: 20px;
+  --ticker-padding-size: 8px;
+  --divider-height: 1px;
+}

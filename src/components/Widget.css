@@ -1,0 +1,4 @@
+.Widget {
+  background-color: var(--dark-mode-grey);
+  padding: var(--widget-padding-size);
+}
